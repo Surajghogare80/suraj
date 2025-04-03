@@ -1,0 +1,126 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/background\ img.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main {
+    background-color: rgba(255, 255, 255, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent black;
+}
+.container{
+    width:90%;
+    height: 85%;
+    position: relative;
+    left:75px;
+    box-shadow: 5px 5px 30px 2px black;
+    border-radius: 10px ;
+    right: 10px;
+    top: 60px;
+    bottom: 10px;
+    background-image: url(./img/w-b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.logo{
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    margin-right: 50px;
+    margin-left: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.icon{
+    cursor: pointer;
+   margin-right: 40px;
+    color: white;
+    display: none;
+}
+.logo-img{
+    cursor: pointer;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.span{
+    font-size: 10px;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+.thick{
+    font-size: 40px;
+    color: rgb(29, 100, 117);
+}
+.btn{
+    border: none;
+    background-color: rgb(29, 100, 117);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.btn-hover{
+
+}
+.span-1{ font-size: 13px;
+    margin-top: 130px;
+    margin-left: 10px;
+    
+}
+.text{
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 26px;
+
+}
+.boxes{
+   
+    display: flex;
+    flex-direction: row;
+  justify-content: space-between;
+  border-radius: 30px;
+  cursor: pointer;
+
+   
+
+}
+.box{
+   
+    margin-right: 50px;
+   margin-left: 40px;
+    border-radius: 20px;
+    width: fit-content;
+    border-color: 1px solid aliceblue;
+}
+.img{
+    height: 234px;
+    width: 240px;
+    border: none;
+    border-radius: 20px;
+
+    
+}
+.btn-2{
+    margin-top: 40px;
+    margin-right: 80px;
+}
